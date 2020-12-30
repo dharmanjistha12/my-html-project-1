@@ -1,0 +1,76 @@
+
+header{background-color:black;
+padding:0;
+margin: 0;
+}
+*
+{padding:0%;
+    margin:0%;
+    box-sizing: border-box;
+    -webkit-font-smoothing:antialiased;
+}
+.container{
+    padding: 0% 15px;
+    max-width: 1152px;
+    margin:0% auto;
+}
+header nav .left a{
+    color: burlywood;
+    text-decoration: none;
+    margin-right: 3rem;
+    text-transform: uppercase;
+    transition: 0.2s ease;
+}
+body{
+    font-family: "poppins" ,sans-serif ;
+    background-color:goldenrod;
+}
+header nav{
+    padding: 5rem 2rem;
+}
+header nav .branding{
+    margin-right: 6rem;
+}
+header nav .left a:hover{
+    color: cyan;
+}
+image{
+    padding: 0 0;
+    width: 100px;
+    height: 80px;
+}
+.blue .left img{
+    margin-left: 0px;margin-right: 0%;
+    padding-left: 0%;padding-right: 0%;
+    align-items: "left";
+}
+.content-table{
+background-origin: padding-box;
+margin: 25px 400px;
+font-size: 0.9cm;
+max-width: 100%;
+max-height: 100%;
+border: 5px solid black;
+width: 1000px;
+margin-left: 500px;
+margin-right: 500px;
+}
+.content-table tr{
+    background-color: transparent;
+    color: black;
+    text-align: center;
+    border: 5px solid black;
+    padding: 30px 30px;
+    }
+    .content-table th
+    .content-table td{
+        padding: 12px 12px;
+        margin: 15px 15px;
+        border: black;
+    }
+table{
+    border-spacing: 50px;
+    border: black;
+    margin-left: 00px;
+    margin-right: 600px;
+}
